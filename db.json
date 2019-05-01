@@ -1,0 +1,49 @@
+{
+  "catelogue": [
+    {
+      "available": [
+        {
+          "id": 1,
+          "type": "D",
+          "amount": 290,
+          "link": "../src/assets/img/shirt.jpg",
+          "name": "Men's Button Down Shirt",
+          "description": "Best cotton product from Sun Precautions"
+        },
+        {
+          "id": 2,
+          "type": "D",
+          "amount": 200,
+          "link": "../src/assets/img/jeans.jpg",
+          "name": "Chinoy Jeans",
+          "description": "Affordable best New Model Loose Denim jeans"
+        },
+        {
+          "id": 3,
+          "type": "D",
+          "amount": 1200,
+          "link": "../src/assets/img/partywear.jpg",
+          "name": "Gowns for Women Party Wear",
+          "description": "Gowns for women party wear lehenga choli for wedding function salwar suits for women gowns"
+        },
+        {
+          "id": 4,
+          "type": "D",
+          "amount": 1200,
+          "link": "../src/assets/img/frock.jpg",
+          "name": "Kid Wear Baby Frock Designs Cute",
+          "description": "Kid Wear Baby Frock designs Cute Girl Fashion Dress ,Girl New Dress For Party"
+        },
+        {
+          "id": 5,
+          "type": "D",
+          "amount": 1000,
+          "link": "../src/assets/img/saree.jpg",
+          "name": "Isin Sarees",
+          "description": "Orange & Blue Art Silk Woven Design Bhagalpuri Saree"
+        }
+      ]
+    }
+  ],
+  "cartitem": []
+}

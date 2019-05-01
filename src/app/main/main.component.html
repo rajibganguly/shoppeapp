@@ -1,0 +1,19 @@
+<div class="main">
+  <h2 class="display-4">Latests Items as your choice.</h2>
+  <div class="alert alert-success" role="alert" *ngIf="noticeMsg">
+    {{noticeMsgTxt}}
+  </div>
+  <div class="row p-4">
+    <div class="card col-md-3" *ngFor="let item of allItems">
+      <div style="height:18em;">
+        <img [src]="item.link" class="card-img-top" alt="gg">
+      </div>
+      <div class="card-body bg-light">
+        <h5 class="card-title" style="height:3em;">{{item.name}}</h5>
+        <p class="card-text" style="height:5em; overflow:hidden;">{{item.description}}</p>
+        <p class="card-text"><strong>Rs.{{item.amount}}</strong></p>
+        <button class="btn btn-primary" (click)="submitToCart($event, item)">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>

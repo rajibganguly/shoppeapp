@@ -1,0 +1,28 @@
+<div class="shopping-cart">
+  <table class="table table-striped" *ngIf="!(allItems.length==0)">
+    <thead>
+      <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of allItems">
+        <th scope="row"><img [src]=item.link style="width:40px" alt="product" /></th>
+        <td>{{item.name}}</td>
+        <td><small>{{item.description}}</small></td>
+        <td><strong>Rs.{{item.amount}}</strong></td>
+        <td><button class="btn btn-primary btn-sm" (click)="removeCart($event, item)">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="allItems.length==0" class="text-mute m-4">
+    <p class="text-center">Hooray!! Currently No Item in Your Cart!</p>
+    <p class="text-center"><button class="btn btn-light" (click)="returnShop()">Return in Shopping</button></p>
+  </div>
+
+
+</div>

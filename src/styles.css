@@ -1,0 +1,15 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap-grid.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: rgb(207, 230, 225) url('./assets/img/bg.jpg') center top no-repeat fixed;
+
+}
+.card {}
+.card:hover {
+  box-shadow: 0 0 15px #fff;
+  transform: box-shadow 2s infinite;
+}
+.container {
+  background: rgba(255,255,255,0.95);
+}
