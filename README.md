@@ -18,4 +18,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Start the data
-Run npm run json-server for db.json and produce data.
+Run `npm run json-server` for db.json and produce data.
